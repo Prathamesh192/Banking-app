@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="2dp"
+            android:id="@+id/image1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Line1"
+            android:textSize="30dp"
+            android:layout_toRightOf="@+id/image1"
+            android:textColor="@color/purple_500"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:id="@+id/textline1"
+            />
+
+        <TextView
+            android:id="@+id/textline3"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textline1"
+            android:layout_toRightOf="@+id/image1"
+            android:text="Account no -"
+            android:textColor="@color/purple_200"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="   Line 2"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/textline3"
+            android:textColor="@color/purple_200"
+            android:layout_below="@+id/textline1"
+            android:id="@+id/textline2"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
